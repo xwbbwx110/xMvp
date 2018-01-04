@@ -16,10 +16,5 @@
 
 package com.net.retrofit.exception;
 
-/**
- * Created by david on 16/8/21.
- * Email: huangdiv5@gmail.com
- * GitHub: https://github.com/alighters
- */
 public class TokenNotExistException extends RuntimeException {
 }

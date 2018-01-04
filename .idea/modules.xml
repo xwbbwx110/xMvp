@@ -5,8 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fangdong.iml" filepath="$PROJECT_DIR$/fangdong.iml" />
       <module fileurl="file://E:\work\fangdong\uk.iml" filepath="E:\work\fangdong\uk.iml" />
-      <module fileurl="file://$PROJECT_DIR$/uoko-fangdong.iml" filepath="$PROJECT_DIR$/uoko-fangdong.iml" />
       <module fileurl="file://E:\work\fangdong\uoko-fangdong.iml" filepath="E:\work\fangdong\uoko-fangdong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xMvp.iml" filepath="$PROJECT_DIR$/xMvp.iml" />
     </modules>
   </component>
 </project>

@@ -17,7 +17,7 @@
 package com.net.retrofit.converter;
 
 import com.google.gson.TypeAdapter;
-import com.uoko.uk.utils.LogUtils;
+import com.xwb.wb.utils.LogUtils;
 
 import java.io.IOException;
 

@@ -1,8 +1,5 @@
 package com.net.retrofit.http;
 
-/**
- * Created by helin on 2016/10/10 11:52.
- */
 
 public class ApiException extends RuntimeException {
 

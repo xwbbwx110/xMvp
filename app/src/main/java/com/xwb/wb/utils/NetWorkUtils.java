@@ -1,4 +1,4 @@
-package com.net.retrofit.util;
+package com.xwb.wb.utils;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

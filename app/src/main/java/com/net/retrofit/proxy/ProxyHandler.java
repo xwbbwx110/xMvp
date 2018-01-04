@@ -18,9 +18,6 @@ package com.net.retrofit.proxy;
 
 import android.util.Log;
 
-
-import com.net.retrofit.util.IGlobalManager;
-
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
@@ -33,11 +30,6 @@ import io.reactivex.ObservableSource;
 import io.reactivex.functions.Function;
 
 
-/**
- * Created by david on 16/8/21.
- * Email: huangdiv5@gmail.com
- * GitHub: https://github.com/alighters
- */
 public class ProxyHandler implements InvocationHandler {
 
     private final static String TAG = "Token_Proxy";
@@ -50,11 +42,9 @@ public class ProxyHandler implements InvocationHandler {
     private boolean mIsTokenNeedRefresh;
 
     private Object mProxyObject;
-    private IGlobalManager mGlobalManager;
 
-    public ProxyHandler(Object proxyObject, IGlobalManager globalManager) {
+    public ProxyHandler(Object proxyObject) {
         mProxyObject = proxyObject;
-        mGlobalManager = globalManager;
     }
 
     @Override

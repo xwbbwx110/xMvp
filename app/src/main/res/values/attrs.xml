@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingConstraintLayout">
+        <attr name="titileColor" format="color" />
+        <attr name="contentColor" format="color" />
+        <attr name="btnTxtColor" format="color" />
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:clickable="true"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center_horizontal"
+        >
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/AVLoadingIndicatorView"
+        app:indicatorName="BallTrianglePathIndicator"
+        app:indicatorColor="@android:color/white"
+        />
+
+        <TextView
+            android:id="@+id/hint_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hintTxt title"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            />
+
+        <TextView
+            android:id="@+id/hint_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hintTxt description"
+            android:padding="5dp"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            />
+
+        <Button
+            android:id="@+id/opear_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="try again"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

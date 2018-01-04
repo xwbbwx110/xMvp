@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/translucence"
+    >
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/uk_loading_v"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AVLoadingIndicatorView"
+                android:visibility="visible"
+                app:indicatorName="BallTrianglePathIndicator"
+                app:indicatorColor="@android:color/white"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+            />
+
+
+            <TextView
+                android:id="@+id/dialog_tip_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="行走江湖，眼观六路，耳听八方"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/uk_loading_v"
+                android:textColor="@android:color/white"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
+                />
+
+</android.support.constraint.ConstraintLayout>

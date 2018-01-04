@@ -1,4 +1,4 @@
-package com.net.retrofit.util;
+package com.xwb.wb.utils;
 
 /**
  * Created by zhpan on 2017/5/25.
